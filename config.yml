@@ -85,7 +85,6 @@ services:
         url: "#"
 
 # Service #2
-services:
   - name: "Servers"
     icon: "fas fa-cloud"
     items:
