@@ -51,11 +51,11 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Contribute"
+  - name: "Github"
     icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
+    url: "https://github.com/mattkferguson/"
     target: "_blank" # optional html a tag target attribute
-  - name: "Wiki"
+  - name: "Wikipedia"
     icon: "fas fa-book"
     url: "https://www.wikipedia.org/"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
@@ -64,11 +64,29 @@ links:
   #  icon: "fas fa-file-alt"
   #  url: "#additional-page" 
 
-# Services
+# Service #1
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Applications"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Awesome app"
+        logo: "assets/tools/sample.png"
+        subtitle: "Bookmark example"
+        tag: "app"
+        keywords: "self hosted reddit"
+        url: "https://www.reddit.com/r/selfhosted/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Another one"
+        logo: "assets/tools/sample2.png"
+        subtitle: "Another application"
+        tag: "app"
+        url: "#"
+
+# Service #2
+services:
+  - name: "Servers"
     icon: "fas fa-cloud"
     items:
       - name: "Awesome app"
