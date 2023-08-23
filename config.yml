@@ -135,7 +135,7 @@ services:
       - name: "Ping"
         type: Ping
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
+        subtitle: "Example Ping"
         tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        url: "https://google.com"
         method: "head"
