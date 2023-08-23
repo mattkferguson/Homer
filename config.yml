@@ -138,4 +138,4 @@ services:
         subtitle: "Example Ping"
         tag: "app"
         url: "https://google.com"
-        method: "head"
+        method: "GET"
