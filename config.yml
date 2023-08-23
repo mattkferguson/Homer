@@ -86,7 +86,7 @@ services:
 
 # Service #2
   - name: "Servers"
-    icon: "fas fa-cloud"
+    icon: "fas fa-desktop"
     items:
       - name: "Awesome app"
         logo: "assets/tools/sample.png"
