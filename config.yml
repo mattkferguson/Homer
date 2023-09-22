@@ -125,6 +125,13 @@ services:
         units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
         background: "none" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
         type: "OpenWeather"
+      - name: "HYC Weather"
+        logo: "assets/tools/sample.png"
+        subtitle: "HYC"
+        tag: "resources"
+        keywords: "Hingham Yacht Club"
+        url: "https://tempestwx.com/station/78360/"
+        target: "_blank" # optional html a tag target attribute
 
 # Customer service #2: Ping. 
 # Need to set the type to Ping and provide a url. 
