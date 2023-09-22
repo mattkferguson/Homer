@@ -94,9 +94,9 @@ services:
   - name: "Influx Dashboard"
     icon: "fas fa-database"
     items:
-      - name: "Awesome app"
+      - name: "Influx"
         logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
+        subtitle: "Otis Hill"
         tag: "app"
         keywords: "self hosted reddit"
         url: "http://100.126.212.114:8086/"
@@ -111,6 +111,13 @@ services:
   - name: "Local Weather"
     icon: "fas fa-cloud"
     items: 
+      - name: "Hingham Yacht Club"
+        icon: "fas fa-cloud"
+        subtitle: "HYC"
+        # tag: "resources"
+        keywords: "Hingham Yacht Club"
+        url: "https://tempestwx.com/station/78360/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Local Weather"
         location: "Hingham" # your location.
         locationId: "4939549" # Optional: Specify OpenWeatherMap city ID for better accuracy
@@ -125,13 +132,6 @@ services:
         units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
         background: "none" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
         type: "OpenWeather"
-      - name: "HYC Weather"
-        logo: "assets/tools/sample.png"
-        subtitle: "HYC"
-        tag: "resources"
-        keywords: "Hingham Yacht Club"
-        url: "https://tempestwx.com/station/78360/"
-        target: "_blank" # optional html a tag target attribute
 
 # Customer service #2: Ping. 
 # Need to set the type to Ping and provide a url. 
