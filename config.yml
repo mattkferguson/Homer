@@ -112,7 +112,7 @@ services:
     icon: "fas fa-cloud"
     items: 
       - name: "Hingham Yacht Club"
-        icon: "fas fa-cloud"
+        icon: "fas fa-anchor"
         subtitle: "HYC"
         # tag: "resources"
         keywords: "Hingham Yacht Club"
