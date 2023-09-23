@@ -96,13 +96,21 @@ services:
   - name: "Network Services"
     icon: "fas fa-network-wired"
     items:
-      - name: "Cloudflare"
+      - name: "VPC Tunnel"
         icon: "fab fa-cloudflare"
-        subtitle: "*.otishill.net"
+        subtitle: "Cloudflare"
         tag: "vpctunnel"
         keywords: "tunnel"
         url: "https://www.cloudflare.com"
         target: "_blank" # optional html a tag target attribute
+      - name: "Mesh"
+        icon: "fas fa-project-diagram"
+        subtitle: "Tailscale"
+        tag: "site-2-site"
+        keywords: "mesh"
+        url: "https://www.cloudflare.com"
+        target: "_blank" # optional html a tag target attribute
+
 
 # Custom Services #1: Weathermap
   - name: "Interesting Links"
