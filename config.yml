@@ -126,7 +126,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
 # Custom Services #3: Weathermap
-  - name: "Interesting Links"
+  - name: "Links"
     icon: "fas fa-external-link-alt"
     items: 
       - name: "Hingham Yacht Club"
@@ -144,7 +144,7 @@ services:
         background: "none" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
         type: "OpenWeather"
 
-# Customer service #2: Ping. 
+# Customer service #4: Ping. 
 # Need to set the type to Ping and provide a url. 
 # By default the HEAD method is used but it can be configured to use GET using the optional method property. 
   - name: "Ping Service"
@@ -157,3 +157,15 @@ services:
         tag: "app"
         url: "https://www.otishill.net"
         method: "HEAD"
+
+# Custom Services #5: Weathermap
+  - name: "Personal"
+    icon: "fas fa-user"
+    items: 
+      - name: "Notion"
+        icon: "fas fa-book-open"
+        subtitle: "Login"
+        # tag: "resources"
+        keywords: "Login"
+        url: "https://www.notion.so/login"
+        target: "_blank" # optional html a tag target attribute
