@@ -74,32 +74,35 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Grafana Dashboards"
+  - name: "Dashboards"
     icon: "fas fa-gauge-high"
     items:
       - name: "VPN Node"
         icon: "fab fa-raspberry-pi"
-        subtitle: "Utilization: Uptime, Temp, CPU"
+        subtitle: "Uptime, Temp, CPU"
         tag: "resources"
         keywords: "self hosted reddit"
         url: "http://100.126.212.114:3000/d/d1c2fb66-62eb-4061-bba7-9310550b6604/vpn-pi?orgId=1"
         target: "_blank" # optional html a tag target attribute
-#      - name: "Another one"
-#        logo: "assets/tools/sample2.png"
-#        subtitle: "Another application"
-#        tag: "app"
-#        url: "#"
-
-# Service #2
-  - name: "Influx Dashboard"
-    icon: "fas fa-database"
     items:
-      - name: "Influx"
-        icon: "fas fa-chart-line"
+      - name: "Influx db"
+        icon: "fas fa-database"
         subtitle: "Otis Hill"
         tag: "app"
         keywords: "dashboard"
         url: "http://100.126.212.114:8086/"
+        target: "_blank" # optional html a tag target attribute
+
+# Service #2
+  - name: "Network Services"
+    icon: "far fa-network-wired"
+    items:
+      - name: "Cloudflare"
+        icon: "fad fa-cloudflare"
+        subtitle: "*.otishill.net"
+        tag: "vpctunnel"
+        keywords: "tunnel"
+        url: "https://www.cloudflare.com"
         target: "_blank" # optional html a tag target attribute
 
 # Custom Services #1: Weathermap
