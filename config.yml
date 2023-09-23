@@ -94,10 +94,10 @@ services:
 
 # Service #2
   - name: "Network Services"
-    icon: "far fa-network-wired"
+    icon: "fas fa-network-wired"
     items:
       - name: "Cloudflare"
-        icon: "fad fa-cloudflare"
+        icon: "fab fa-cloudflare"
         subtitle: "*.otishill.net"
         tag: "vpctunnel"
         keywords: "tunnel"
