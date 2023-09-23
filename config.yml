@@ -108,11 +108,11 @@ services:
         subtitle: "Tailscale"
         tag: "site-2-site"
         keywords: "mesh"
-        url: "https://www.cloudflare.com"
+        url: "https://www.tailscale.com"
         target: "_blank" # optional html a tag target attribute
 
 
-# Custom Services #1: Weathermap
+# Custom Services #3: Weathermap
   - name: "Interesting Links"
     icon: "fas fa-external-link-alt"
     items: 
