@@ -78,7 +78,7 @@ services:
     icon: "fas fa-gauge-high"
     items:
       - name: "VPN Pi Node"
-        icon: "fas fa-raspberry-pi"
+        icon: "fab fa-raspberry-pi"
         subtitle: "Resource Utilization"
         tag: "resources"
         keywords: "self hosted reddit"
