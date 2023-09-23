@@ -84,6 +84,13 @@ services:
         keywords: "self hosted reddit"
         url: "http://100.126.212.114:3000/d/d1c2fb66-62eb-4061-bba7-9310550b6604/vpn-pi?orgId=1"
         target: "_blank" # optional html a tag target attribute
+      - name: "GTR32500"
+        icon: "fab fa-windows"
+        subtitle: "Uptime, Temp, CPU"
+        tag: "restricted"
+        keywords: "self hosted reddit"
+        url: "http://localhost:3000/goto/wMzyOGWSg?orgId=1"
+        target: "_blank" # optional html a tag target attribute
       - name: "Influx db"
         icon: "fas fa-database"
         subtitle: "Otis Hill"
