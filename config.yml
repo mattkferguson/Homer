@@ -89,7 +89,7 @@ services:
         subtitle: "Uptime, Temp, CPU"
         tag: "restricted"
         keywords: "self hosted reddit"
-        url: "http://localhost:3000/goto/wMzyOGWSg?orgId=1"
+        url: "http://100.126.212.114:3000/goto/wMzyOGWSg?orgId=1"
         target: "_blank" # optional html a tag target attribute
       - name: "Influx db"
         icon: "fas fa-database"
