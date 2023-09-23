@@ -84,7 +84,6 @@ services:
         keywords: "self hosted reddit"
         url: "http://100.126.212.114:3000/d/d1c2fb66-62eb-4061-bba7-9310550b6604/vpn-pi?orgId=1"
         target: "_blank" # optional html a tag target attribute
-    items:
       - name: "Influx db"
         icon: "fas fa-database"
         subtitle: "Otis Hill"
