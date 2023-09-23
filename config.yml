@@ -100,7 +100,7 @@ services:
         target: "_blank" # optional html a tag target attribute
 
 # Service #2
-  - name: "Network Services"
+  - name: "Network"
     icon: "fas fa-network-wired"
     items:
       - name: "VPC Tunnel"
@@ -117,7 +117,13 @@ services:
         keywords: "mesh"
         url: "https://www.tailscale.com"
         target: "_blank" # optional html a tag target attribute
-
+      - name: "DNS"
+        icon: "fas fa-at"
+        subtitle: "No-IP"
+        tag: "Otishillroad"
+        keywords: "noip"
+        url: "https://www.noip.com/login"
+        target: "_blank" # optional html a tag target attribute
 
 # Custom Services #3: Weathermap
   - name: "Interesting Links"
