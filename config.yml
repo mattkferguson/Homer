@@ -78,7 +78,7 @@ services:
     icon: "fas fa-gauge-high"
     items:
       - name: "VPN Pi Node"
-        logo: "assets/tools/sample.png"
+        icon: "fas fa-raspberry-pi"
         subtitle: "Resource Utilization"
         tag: "resources"
         keywords: "self hosted reddit"
@@ -95,10 +95,10 @@ services:
     icon: "fas fa-database"
     items:
       - name: "Influx"
-        logo: "assets/tools/sample.png"
+        icon: "fas fa-chart-line"
         subtitle: "Otis Hill"
         tag: "app"
-        keywords: "self hosted reddit"
+        keywords: "dashboard"
         url: "http://100.126.212.114:8086/"
         target: "_blank" # optional html a tag target attribute
 
