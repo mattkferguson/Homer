@@ -89,7 +89,7 @@ services:
         subtitle: "Uptime, Temp, CPU"
         tag: "restricted"
         keywords: "self hosted reddit"
-        url: "http://100.126.212.114:3000/dashboard/snapshot/gzLladzcPV8ckoNuhaEcMtFvglwU6Hf5"
+        url: "http://100.126.212.114:3000/d/f3d6bca4-424b-4bd0-99e3-e58989f668f8/windows-board?orgId=1"
         target: "_blank" # optional html a tag target attribute
       - name: "Influx db"
         icon: "fas fa-database"
