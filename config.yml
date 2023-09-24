@@ -46,6 +46,15 @@ colors:
     link: "#3273dc"
     link-hover: "#ffdd57"
 
+# Optional message | DuckDuckGo Search Bar
+message:
+  #style: "is-link"
+  title: "DuckDuckGo Search"
+  icon: "fa fa-magnifying-glass"
+  content: '<iframe src="https://duckduckgo.com/search.html?prefill=Search
+    DuckDuckGo&focus=yes&kz=1&kac=1&kn=1&kp=-2&k1=-1" style="overflow:hidden;margin:0;
+    padding:0;width:calc(100% - 70px);height:40px;" frameborder="0"></iframe>'
+
 # Optional message
 # message:
   #url: https://b4bz.io
