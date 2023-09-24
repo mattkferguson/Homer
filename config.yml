@@ -49,7 +49,7 @@ colors:
 # Optional message | DuckDuckGo Search Bar
 message:
   #style: "is-link"
-  title: "DuckDuckGo Search"
+  title: "Search"
   icon: "fa fa-magnifying-glass"
   content: '<iframe src="https://duckduckgo.com/search.html?prefill=Search
     DuckDuckGo&focus=yes&kz=1&kac=1&kn=1&kp=-2&k1=-1" style="overflow:hidden;margin:0;
@@ -134,7 +134,7 @@ services:
         url: "https://www.noip.com/login"
         target: "_blank" # optional html a tag target attribute
 
-# Custom Services #3: Weathermap
+# Services #3: 
   - name: "Links"
     icon: "fas fa-external-link-alt"
     items: 
@@ -153,17 +153,17 @@ services:
         background: "none" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
         type: "OpenWeather"
 
-# Customer service #4: Ping. 
+# Service #4:  
 # Need to set the type to Ping and provide a url. 
 # By default the HEAD method is used but it can be configured to use GET using the optional method property. 
-  - name: "Ping Service"
+  - name: "Ping"
     icon: "fas fa-satellite-dish"
     items:
-      - name: "Ping"
+      - name: "otishill.net"
         type: Ping
         logo: "assets/tools/sample.png"
-        subtitle: "Example Ping"
-        tag: "app"
+        subtitle: "HTTP"
+      #  tag: "app"
         url: "https://www.otishill.net"
         method: "HEAD"
 
