@@ -138,6 +138,13 @@ services:
   - name: "Links"
     icon: "fas fa-external-link-alt"
     items: 
+      - name: "Local Weather"
+        location: "Hingham, MA" # your location.
+        locationId: "4939549" # Optional: Specify OpenWeatherMap city ID for better accuracy
+        apikey: "0fdad742c24a1e07b1ee364a6727e9ff" # insert your own API key here. Request one from https://openweathermap.org/api.
+        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
+        background: "none" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
+        type: "OpenWeather"
       - name: "Hingham Yacht Club"
         icon: "fas fa-anchor"
         subtitle: "Weather"
@@ -145,13 +152,6 @@ services:
         keywords: "Hingham Yacht Club"
         url: "https://tempestwx.com/station/78360/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Local Weather"
-        location: "Hingham" # your location.
-        locationId: "4939549" # Optional: Specify OpenWeatherMap city ID for better accuracy
-        apikey: "0fdad742c24a1e07b1ee364a6727e9ff" # insert your own API key here. Request one from https://openweathermap.org/api.
-        units: "imperial" # units to display temperature. Can be one of: metric, imperial, kelvin. Defaults to kelvin.
-        background: "none" # choose which type of background you want behind the image. Can be one of: square, circle, none. Defaults to none.
-        type: "OpenWeather"
 
 # Service #4:  
 # Need to set the type to Ping and provide a url. 
